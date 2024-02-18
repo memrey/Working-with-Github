@@ -1,0 +1,12 @@
+To download the last version in your remote repo to your local repo;
+- Do this step every time before you make changes in your repos.
+- Go to the directory where .git file resides.
+- Type "git pull".
+
+To upload the last version in your local repo to your remote repo;
+- Go to the directory where .git file resides.
+- Type;
+	1- git add .
+	2- git commit -m "<your massage>"
+	3- git push -u origin main
+- After the last command it will ask you to prompt your username and github token. You have to type those to complete the upgrade.
